@@ -1,0 +1,102 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="ModelsView\" />
+    <None Remove="Newtonsoft.Json" />
+    <None Remove="Microsoft.EntityFrameworkCore" />
+    <None Remove="Microsoft.EntityFrameworkCore.Relational" />
+    <None Remove="Microsoft.EntityFrameworkCore.Design" />
+    <None Remove="Microsoft.EntityFrameworkCore.Tools" />
+    <None Remove="Microsoft.EntityFrameworkCore.SqlServer" />
+    <None Remove="Microsoft.AspNetCore.Identity.EntityFrameworkCore" />
+    <None Remove="Microsoft.EntityFrameworkCore.Proxies" />
+    <None Remove="Interface\" />
+    <None Remove="Interface\Route\" />
+    <None Remove="Interface\Station\" />
+    <None Remove="Interface\Account\" />
+    <None Remove="API\Account\" />
+    <None Remove="Microsoft.VisualStudio.Web.CodeGeneration.Design" />
+    <None Remove="Microsoft.AspNetCore.Authentication.JwtBearer" />
+    <None Remove="Interface\RouteStation\" />
+    <None Remove="Interface\Calculate\" />
+    <None Remove="API\Calculate\" />
+    <None Remove="API\Trip\" />
+    <None Remove="Interface\Trip\" />
+    <None Remove="API\Wallet\" />
+    <None Remove="Interface\Wallet\" />
+    <None Remove="Interface\Upload\" />
+    <None Remove="Interface\Twillio\" />
+    <None Remove="Twilio" />
+    <None Remove="Vonage" />
+    <None Remove="Interface\Driver\" />
+    <None Remove="Interface\Bus\" />
+    <None Remove="APICompany\" />
+    <None Remove="APICompany\BusCompany\" />
+    <None Remove="Swashbuckle.AspNetCore" />
+    <None Remove="APICompany\Payment\" />
+    <None Remove="API\Bus\" />
+    <None Remove="Interface\PromoterInstallation\" />
+    <None Remove="API\PromoterInstallation\" />
+    <None Remove="Interface\Inspection\" />
+    <None Remove="API\Inspector\" />
+    <None Remove="APICompany\AddByCompany\" />
+    <None Remove="ModelReturn\" />
+    <None Remove="APICompany\RouteRequest\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Interface\" />
+    <Folder Include="Interface\Route\" />
+    <Folder Include="Interface\Station\" />
+    <Folder Include="Interface\Account\" />
+    <Folder Include="Interface\RouteStation\" />
+    <Folder Include="Interface\Calculate\" />
+    <Folder Include="API\Trip\" />
+    <Folder Include="Interface\Trip\" />
+    <Folder Include="API\Wallet\" />
+    <Folder Include="Interface\Wallet\" />
+    <Folder Include="Interface\Upload\" />
+    <Folder Include="Interface\Twillio\" />
+    <Folder Include="Interface\Driver\" />
+    <Folder Include="Interface\Bus\" />
+    <Folder Include="APICompany\" />
+    <Folder Include="APICompany\BusCompany\" />
+    <Folder Include="APICompany\Payment\" />
+    <Folder Include="API\Bus\" />
+    <Folder Include="Interface\PromoterInstallation\" />
+    <Folder Include="API\PromoterInstallation\" />
+    <Folder Include="Interface\Inspection\" />
+    <Folder Include="API\Inspector\" />
+    <Folder Include="APICompany\AddByCompany\" />
+    <Folder Include="ModelReturn\" />
+    <Folder Include="APICompany\RouteRequest\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.SignalR" Version="1.1.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.2" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="6.0.2" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="6.0.2">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.2">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.2" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="6.0.2" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Proxies" Version="6.0.2" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.2" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="6.0.2" />
+    <PackageReference Include="System.Linq" Version="4.3.0" />
+    <PackageReference Include="Twilio" Version="5.71.0" />
+    <PackageReference Include="Vonage" Version="5.9.5" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.3.0" />
+  </ItemGroup>
+</Project>

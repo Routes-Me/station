@@ -1,0 +1,47 @@
+﻿<Properties StartupConfiguration="{75CDD4D8-4383-42F5-82BC-BD44BFFBA5DB}|Default">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.RoutesStation PreferredExecutionTarget="/Volumes/AhmadFouad - Data/Applications/Google Chrome.app" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="RoutesStation/Interface/Wallet/WalletRep.cs">
+    <Files>
+      <File FileName="RoutesStation/API/Account/UserByAdminAPIController.cs" Line="337" Column="58" />
+      <File FileName="RoutesStation/Interface/Wallet/IWalletRep.cs" Line="13" Column="71" />
+      <File FileName="RoutesStation/Interface/Wallet/WalletRep.cs" Line="393" Column="98" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="RoutesStation" expanded="True">
+            <Node name="RoutesStation" expanded="True">
+              <Node name="API" expanded="True">
+                <Node name="Account" expanded="True" />
+                <Node name="Route" expanded="True" />
+                <Node name="RouteStation" expanded="True" />
+              </Node>
+              <Node name="APICompany" expanded="True">
+                <Node name="Payment" expanded="True" />
+                <Node name="RouteRequest" expanded="True" />
+              </Node>
+              <Node name="Controllers" expanded="True" />
+              <Node name="Interface" expanded="True">
+                <Node name="Route" expanded="True" />
+                <Node name="Trip" expanded="True" />
+                <Node name="Wallet" expanded="True" />
+              </Node>
+              <Node name="ModelReturn" expanded="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="ModelsView" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
